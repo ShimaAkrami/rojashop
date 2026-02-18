@@ -29,31 +29,40 @@ a {
 }
 .container {
   width: 100%;
-  height: 1450px;
   display: flex;
   background-color: #ff096ba5;
   filter: blur(10%);
+  height: 833px;
 }
 .container-right {
   margin: 32px;
   padding: 10px;
   width: 50%;
-  height: 1400px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .content-boxes {
+  position: relative;
   width: 450px;
-  height: 100%;
-  padding: 10px;
+  padding: 25px 15px;
+  background-color: #f0b4b4b0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .container-right .logo-box {
+  position: relative;
   display: flex;
-  width: 260px;
+  width: 300px;
   height: 76px;
+  margin-bottom: 43px;
   padding-right: 16px;
 }
 .container-right img {
@@ -61,9 +70,12 @@ a {
   height: auto;
 }
 .container-right .right-span {
+  position: absolute;
   margin: 10px 0;
   padding-right: 15px;
+  top: 104px;
   color: #373737;
+  right: 25px;
 }
 .container-right .right-span a {
   position: relative;
@@ -79,8 +91,64 @@ a {
   background-color: #400d70ad;
 }
 .container-left {
+  position: relative;
+  display: flex;
   width: 50%;
-  height: 1400px;
+}
+.container-left .img-box {
+  display: flex;
+  width: 100%;
+  margin: 10px;
+}
+.container-left .img-box img {
+  width: 100%;
+  border-radius: 10px;
+}
+.return-button {
+  width: 110px;
+  height: 25px;
+  padding: 0 4px;
+  border: 1px solid white;
+  border-radius: 25px;
+  display: flex;
+  position: absolute;
+  right: 22px;
+  top: 20px;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.return-button:hover{
+    scale: 1.1;
+    background-color:#f0b4b4b0;
+    color:#ef0b66;
+     border: 1px solid #f0b4b4b0;
+}
+
+.return-button img {
+  width: 14px;
+  height: 14px;
+}
+.button-slider  {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: 37%;
+  width: 200px;
+  height: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.button-slider span:nth-child(3){
+     background-color:#5b0c219c; 
+}
+.button-slider span {
+  width: 40px;
+  height: 7px;
+  background-color:#fff;
+  border-radius: 8px;
+  display: block;
+
 }
 .button-box-bottom {
   display: flex;
@@ -90,7 +158,7 @@ a {
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .button-box-bottom:hover {
   background-color: #ff096ba5;
@@ -183,6 +251,12 @@ a {
   color: #363434;
   font-size: 20px;
   font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+.form-box .input-down:hover input {
+  background-color: #ef0b66;
+  color: #fff;
+  font-weight: lighter;
 }
 .bottom-box {
   width: 386px;
