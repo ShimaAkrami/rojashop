@@ -30,7 +30,7 @@ a {
 .container {
   width: 100%;
   display: flex;
-  background-color: #ff096ba5;
+  background-color:#ff096b2b;
   filter: blur(10%);
   height: 833px;
 }
