@@ -47,7 +47,7 @@ a {
   position: relative;
   width: 450px;
   padding: 25px 15px;
-  background-color: #f0b4b4b0;
+  background-color:white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -154,7 +154,7 @@ a {
   display: flex;
   width: 172px;
   height: 45px;
-  border: 2px solid #ff096b33;
+    background-color:#ff096b52;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
@@ -165,6 +165,7 @@ a {
 }
 .button-box-bottom a {
   display: flex;
+
 }
 .button-box-bottom img {
   width: 30px;
@@ -172,7 +173,7 @@ a {
 }
 .button-box-bottom span {
   margin-left: 10px;
-  color: #fff;
+  color:#2a2a2a;
 }
 .form-box {
   width: 400px;
@@ -203,12 +204,15 @@ a {
   align-items: center;
   gap: 10px;
 }
+.check-boxes span{
+  font-size: 12px;
+}
 .check-boxes span a {
   color: #400d70ad;
 }
 .check-boxes input {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 .between-form-and-button {
   position: relative;
@@ -259,7 +263,7 @@ a {
   font-weight: lighter;
 }
 .bottom-box {
-  width: 386px;
-  display: flex;
-  justify-content: space-around;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
 }
