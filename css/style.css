@@ -235,9 +235,12 @@ form::before {
 /*--------------------------------section( baner) START------------------------------------------------------*/
 
 .c_baner {
-  width: 100%;
-  height: 460px;
-  position: relative;
+width: 100%;
+    height: 460px;
+    position: relative;
+    background-image: url(../img/baner/baner.jpg);
+    background-repeat: no-repeat;
+    background-position: 55%;
 }
 .c_baner img {
   max-width: 100%;
